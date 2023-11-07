@@ -1,0 +1,195 @@
+.About_college {
+    display: flex;
+    /* justify-content: space-evenly; */
+    text-align: center;
+    margin-bottom: 5%;
+    /* align-items: center; */
+
+}
+
+.about_left {
+    flex: 1.5;
+
+}
+.left_heading {
+    font-size: 46px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.left_para {
+    padding-left: 50px;
+    width: 80%;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: #8d8d8d;
+}
+.about_right{
+   
+    flex: 1;
+}
+.about_right img {
+    width:  100%;
+    height: 100%;
+    /* padding-right: 120px; */
+    border-radius: 10px 100px / 120px 100px;
+
+    
+   
+    
+    
+
+}
+
+.about_right img:hover {
+    transform: scale(1.1); 
+  }
+
+
+.mission {
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.mission_left {
+    
+}
+.mission_left img {
+    width: 95%;
+    padding-left: 30px;
+    border-radius: 10px 100px / 120px 100px;
+    object-fit: cover;
+
+}
+.mission_left img:hover {
+    transform: scale(1.1); 
+
+}
+.mission_right {
+    
+
+
+}
+.mission_right_para {
+    padding-top: 5%;
+    padding-right: 5px;
+
+    width: 90%;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: #8d8d8d;
+    
+    
+    
+
+}
+.mission_right_ch {
+    margin-left: 62%;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: #8d8d8d;
+}
+.Gallery_heading {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 44px;
+    font-family: serif;
+    font-weight: 400;
+
+}
+
+
+
+.Gallery {
+    
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.Gallerry_pic {
+    flex: 1;
+     /* padding-left:  */
+}
+.Gallerry_pic img {
+    
+   
+    width: 100%;
+    height: auto;
+}
+.gallery_hr {
+    
+    margin-top: 15px;
+    border: none;
+    height: 5px;
+    width: 4%;
+    background-color: #53cab3;
+    text-align: center;
+    margin-left: 48%;
+}
+@media (max-width: 767px) {
+    /* Add your styles for small screens here */
+    .left_heading {
+        font-size: 34px;
+    }
+    .About_college {
+        flex-direction: column;
+    }
+    .about_left {
+        flex: 1;
+    }
+    .about_right {
+        margin-top: 15px;
+        flex: 1;
+    }
+    .mission {
+        flex-direction: column;
+    }
+    .mission_left img,
+    .mission_right_para {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .Gallery {
+        flex-direction: column;
+    }
+    .gallery_hr {
+        
+        width: 50%;
+        margin-left: 26%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Add your styles for medium screens here */
+    .about_left {
+        flex: 1;
+    }
+    .about_right {
+        flex: 1;
+    }
+    .mission_left img,
+    .mission_right_para {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .gallery_hr {
+        margin-left: 46%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-height: 600px) {
+    .mission_right_para{
+        width: 100%;
+        padding-right: 2px;
+
+    }
+    .mission_left img {
+        padding-left: 2px;
+    }
+}

@@ -1,0 +1,169 @@
+/* .apply_main {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.apply_online {
+    width: 350px;
+    height: 100px;
+    background-color: #fafafa;
+    padding: 100px;
+    
+
+}
+.apply_icn {
+    font-size: 64px;
+    color: black;
+    text-align: center;
+
+}
+.apply_heading {
+    text-align: center;
+    font-size: 36px;
+    font-family: serif;
+    cursor: pointer;
+
+} */
+.apply_main {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+/* Styles for the .apply_online class */
+.apply_online {
+  width: 350px;
+  height: 100px;
+  background-color: #fafafa;
+  padding: 20px;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  display: flex; /* Use flex layout by default */
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+}
+
+/* Styles for the .apply_icn class */
+.apply_icn {
+  font-size: 64px;
+  color: black;
+  text-align: center;
+}
+
+/* Styles for the .apply_heading class */
+.apply_heading {
+  text-align: center;
+  font-size: 36px;
+  font-family: serif;
+}
+
+/* Form.css */
+
+/* Container styling */
+.Form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styling */
+  .form_heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+ .form_start  {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label styling */
+  .form_start label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Input field styling */
+  .form_start input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form_start textarea {
+    padding: 20px;
+    margin-bottom: 15px;
+    
+    
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form_start select  {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  /* Submit button styling */
+   .form_start  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Submit button hover effect */
+  .form-start button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Popup.css */
+
+.success-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.success-popup h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.success-popup p {
+  margin: 10px 0;
+}
+@media (max-width: 768px) {
+  .apply_online {
+    flex-direction: column;
+    align-items: center; /* Center the items horizontally */
+  }
+  .apply_online {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 250px;
+    height: 80px;
+    padding: 15px;
+    font-size: 20px;
+  }
+}
+
+  

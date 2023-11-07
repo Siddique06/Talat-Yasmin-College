@@ -1,0 +1,74 @@
+.totalnumber {
+    margin-top:9%;
+   
+   
+    display: flex;
+    justify-content: space-evenly;
+  }
+  @keyframes countAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+ 
+  .newback {
+    width: 24%;
+    height: 50%;
+    background-color: #e8eaed;
+    margin-bottom: 5%;
+    transform: translateY(50%);
+    animation: countAnimation 5s ease-in-out forwards;
+    /* padding: 50px; */
+
+  }
+  .number {
+    padding: 30px;
+    font-size: 44px;
+    
+    margin-bottom: 10%;
+    
+  }
+  
+
+  .courses {
+    color: black;
+    
+    
+    /* /* padding-top: 5%; */
+    text-align: center;
+    padding-bottom: 15%; 
+  }
+  
+  
+  
+  .Heading3 {
+    font-size: 28px;
+    display: inline;
+    font-weight: 400;
+   
+  }
+  
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .totalnumber {
+      flex-wrap: wrap;
+    }
+  
+    .newback {
+      width: 75%;
+    }
+  
+    .number {
+      font-size: 28px;
+    }
+  
+    .courses {
+      font-size: 18px;
+    }
+  }
