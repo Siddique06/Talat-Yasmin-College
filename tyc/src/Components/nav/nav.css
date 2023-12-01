@@ -147,11 +147,11 @@
 
 
 /* Min-width 1025px (Large Screens and Desktops) */
-@media screen and (min-width: 1024px) and (max-height: 600px) {
+/* @media screen and (min-width: 1024px) and (max-height: 600px) {
 
  
   .nav-item  {
     font-size: 1rem;
 
   }
-} 
+}  */
